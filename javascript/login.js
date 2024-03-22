@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.pswfield.value;
 
     if (username === "user" && password === "web") {
-        window.location.href="index.html"
+        window.location.href="../website/html/index.html"
     } else {
         alert("Login failed!")
     }
